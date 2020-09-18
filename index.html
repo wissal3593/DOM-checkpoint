@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="icon" href="./res/icons/Shopping-Bags.png">
+    <title>SHOPPING CART</title>
+</head>
+
+<body>
+    <div class="shop">
+        <h4>Shopping bag</h4>
+        <div id="carre1">
+            <div id="re1" onclick="remove1()">x</div>
+            <div id="col1" onclick="color1()">♥</div>
+            <img src="./res/images/dress-red.jpg" alt="red dress" >
+            <h5 id="ti1"><span>Robe à épaules dénudées, évasée </span>
+                <span class="col">Rouge</span>
+               <span> $450</span>
+            </h5>
+            <div class="plus">
+                <span onclick="inc1()">+</span>
+                <span id="comt1">0</span>
+                <span onclick="dec1()">-</span>
+            </div>
+        </div>
+
+        <div id="carre2">
+            <div id="re2" onclick="remove2()">x</div>
+            <div id="col2" onclick="color2()">♥</div>
+            <img src="./res/images/strowb-dress.jpg"  alt="strowb-dress" >
+            <h5>   <span>Robe décolleté et à volant</span>
+                <span class="col">Rose et rouge</span>
+               <span>$320</span> 
+            </h5>
+            <div class="plus">
+                <span onclick="inc2()">+</span>
+                <span id="comt2">0</span>
+                <span onclick="dec2()">-</span>
+            </div>
+
+        </div>
+
+        <div id="carre3">
+            <div id="re3" onclick="remove3()">x</div>
+            <div id="col3" onclick="color3()">♥</div>
+            <img src="./res/images/party-dress.jpg"  alt="party dress"  >
+            <h5>  <span>Robe soirée chic et elegante</span>
+                <span class="col">Blue et noir</span> 
+                <span>$845</span>
+            </h5>
+            <div class="plus">
+                <span onclick="inc3()">+</span>
+                <span id="comt3">0</span>
+                <span onclick="dec3()">-</span>
+            </div>
+
+        </div>
+        <h4 id="som">total: <span id="total">0</span> $</h4>
+    </div>
+
+
+    <script src="./js/myscript.js"></script>
+</body>
+
+</html>

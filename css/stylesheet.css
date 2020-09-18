@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+body {
+    background-color: #eb9398;}
+.shop {
+    width: 550px;
+    height: 430px;
+    margin: 10px 15px 20px 30px;
+    padding: 10px 10px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px white;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d4e1ec;
+    padding: 10px 30px;
+    color: #547096;
+    font-size: 18px;
+    font-weight: 40;
+}
+    #som{
+      margin-left: 350px;
+      border-bottom: none;
+    }
+
+#carre1,
+#carre2,
+#carre3 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 100px;
+    margin: 0;
+    border-bottom:  1px solid #d4e1ec;
+}
+
+h5 {
+    font-size: 15px;
+    margin: 10px 40px;
+    width: 115px;
+}
+h5 span{
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+h5 span:last-child {
+    font-weight: 300;
+    margin-top: 5px;
+    color: #7c858d;
+}
+.col{
+    color: rgb(102, 102, 102);
+    text-shadow: 2px 2px 10px rgb(238, 238, 238);
+}
+#col1,
+#col2,
+#col3,
+#re1,
+#re2,
+#re3 {
+    color: #43484D;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 1s ease .5ms;
+ 
+}
+#col1,
+#col2,
+#col3{
+    margin-left: 0;
+}
+#col1:hover,
+#col2:hover,
+#col3:hover,
+#re1:hover,
+#re2:hover,
+#re3:hover {
+    color: rgba(255, 0, 0, 0.664);
+}
+.plus {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #43484D;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin: 30px 20px;
+}
+#comt1, #comt2, #comt3{
+    margin: 20px ;
+    margin-top: 0px;
+    color:#7c858d ;
+    font-size: 18px;
+}
+.plus>span:hover
+{
+    color: rgba(255, 0, 0, 0.664);
+}
+
+.red {
+    color: rgba(255, 0, 0, 0.664);
+}
+
+img
+{   margin: 10px 20px;
+    width: 50px;
+    height: 70px;
+    border-radius: 2px;
+    transition: all 1s ease .5ms;
+}
+
+img:hover
+{
+    opacity: 0.6;
+}
